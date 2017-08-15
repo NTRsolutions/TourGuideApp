@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Tab Titles -->
+    <string name="Tab1">Attraction</string>
+    <string name="Tab2">Dine</string>
+    <string name="Tab3">Shopping</string>
+    <string name="Tab4">NightLife</string>
+
+    <!--Attaction Tab content -->
+
+    <string name="Pier_name">Pier 39</string>
+    <string name="Pier_address">San Francisco Fisherman Wharf, at Beach Street and The Embarcadero</string>
+    <string name="Pier_des">Francisco starts at PIER 39. PIER 39—the most visited destination in San Francisco—offers two
+        levels of dining, entertainment, shopping and attractions, all surrounded by unbeatable views of the city and the bay.
+        Located along the historic San Francisco waterfront, PIER 39 location provides the picture perfect backdrop for postcard
+        views of the Golden Gate and Bay Bridges, Alcatraz, Angel Island and the famous city skyline. Aquarium of the Bay* at the entrance of The PIER,
+        offers an astonishing view of life teeming under the surface of San Francisco Bay. Be treated to an unforgettable San Francisco experience and discover why a visit to San Francisco starts at The PIER. </string>
+    <string name="Pier_locCoor">37.808758, -122.409832</string>
+
+    <string name="goldengate_name">Golden Gate Bridge</string>
+    <string name="goldengate_address">Golden Gate Bridge,San Fransisco,CA</string>
+    <string name="goldengate_des">San Francisco\'s most famous landmark, opened in 1937 after a four-year struggle against relentless winds,
+        fog, rocks and treacherous tides. Spanning 1.7 miles from San Francisco to the Marin headlands,
+        the bridge’s sidewalks are open during the day to pedestrians including wheelchair users and bicyclists.</string>
+    <string name="goldengate_locCoor">37.820437, -122.476517</string>
+
+
+    <string name="Alcatraz_name">Alcatraz Island</string>
+    <string name="Alcatraz_address">Fisherman Wharf,San Fransisco,CA</string>
+    <string name="Alcatraz_des">Located one-and-a-half miles from Fisherman\'s Wharf, Alcatraz is one of the city\'s most popular attractions.
+        A visit to the island includes a tour of the cell house where visitors can see where the prisoners lived</string>
+    <string name="Alcatraz_locCoor"> 37.827249, -122.424694</string>
+
+    <string name="lombard_name">Lombard Street</string>
+    <string name="lombard_address">1070 Lombard Street, San Francisco,CA</string>
+    <string name="lombard_des">Often called the “crookedest” street in the world,
+    this scenic road on Russian Hill features tight turns, fragrant gardens
+    and beautiful views of the bay, Alcatraz, and Coit Tower.</string>
+    <string name="lombard_locCoor">37.801151, -122.427025</string>
+
+
+    <!--Dining Tab content -->
+
+    <string name="foreigncinema_name">Foreign Cinema</string>
+    <string name="foreigncinema_address">2534 Mission St,San Francisco,CA</string>
+    <string name="foreigncinema_des">One of the most atmospheric venues in the city,
+        this Mission pioneer has a huge patio where films are screened on the back wall
+        while you dine. The industrial chic interior still impresses after more than 15
+        years. The Cal-Med menu includes quality charcuterie, oysters, and their incredible fried chicken
+    </string>
+    <string name="foreigncinema_locCoor">37.756661, -122.419169</string>
+
+    <string name="lataqueria_name">La Taqueria</string>
+    <string name="lataqueria_address">2889 Mission St,San Francisco,CA</string>
+    <string name="lataqueria_des">Anyone who comes to San Francisco and doesn’t experience one of the (off menu) “tacos dorados” at this benchmark
+    taqueria is missing out. A crispy taco comes wrapped in a soft one, stuffed with your meat of choice. Get their superlative
+    carnitas or carne asada, and whether you want it "super" or not is up to your appetite.
+    </string>
+    <string name="lataqueria_locCoor">37.751117, -122.418055</string>
+
+
+    <string name="dosaonvalencia_name">Dosa on Valencia</string>
+    <string name="dosaonvalencia_address">995 Valencia St.,San Francisco,CA</string>
+    <string name="dosaonvalencia_des">Explore the lighter cuisine of Southern India, which includes dosas (similar to a crepe) and uttapam
+    (like a tangy pancake), fish and coconut and some incredible brunch items (like pani puri!). This spot is casual but urban, with a full bar, well-chosen wines and a California sensibility for quality ingredients.
+    Dosa is a great option for vegetarians (try the okra and snap bean masala!)
+    </string>
+    <string name="dosaonvalencia_locCoor">37.757309, -122.420968</string>
+
+    <string name="flourandwater_name">Flour and Water</string>
+    <string name="flourandwater_address">2401 Harrison St,San Francisco,CA</string>
+    <string name="flourandwater_des">Wood-fired pizza and handmade pasta (from eggplant tortellini to hen polpettini) are the heart of the menu at this simple yet stylish
+    Italy-meets-Northern California eatery. Pasta making classes and culinary education events happen frequently here, and a variety of private dining options
+    </string>
+    <string name="flourandwater_locCoor">37.759179, -122.412249</string>
+
+    <!-- Shopping tab content-->
+
+
+    <string name="chinatown_shopping_name">Chinatown Shopping</string>
+    <string name="chinatown_shopping_address">Post and Stockton, San Francisco CA</string>
+    <string name="chinatown_shopping_des">Enter the Dragon Gates for access to another, redder and more-bustling world of shopping in San Francisco\'s Chinatown, tucked loudly away between North Beach and Union Square shopping. Ornate lampposts, pagoda roofs and a Bank of America that could just as well be in Shanghai highlight San Francisco\'s eclectic Chinatown.
+        At every turn, candles burn and vivid silks grace the jam-packed window fronts, where import vendors sell nearly everything, including (but by no means limited to) carved Buddhas, paper parasols and regal mahogany furniture, perfect for exotic gifts or indulgent tourist fodder. Apothecaries abound,
+        selling delicate green teas, rose-scented black teas and a variety of other ailment-banishing brews by the ounce.
+    </string>
+    <string name="chinatown_shopping_locCoor">37.790860, -122.405655</string>
+
+    <string name="unionsquare_shopping_name">Union Square Shopping</string>
+    <string name="unionsquare_shopping_address">Bush St. and Grand Ave,San Francisco,CA</string>
+    <string name="unionsquare_shopping_des">A lone Corinthian column surrounded by newly installed palm trees marks San Francisco\'s Mecca for shopaholics. Ringed by Macy\'s, Saks, Neiman Marcus and Levi\'s stores along with colorful flower stands and street performers.
+        Surrounding streets feature superstores like Virgin Megastore, Gump\'s and Britex Fabrics along with boutiques for
+        Coach, Bulgari, Cartier, Thomas Pink, Louis Vuitton, MaxMara, Emporio Armani, Diesel, Prada, Celine, Escada, Gucci, Guess, Hermes, Agnes B., Betsey Johnson and Wilkes Bashford.
+    </string>
+    <string name="unionsquare_shopping_locCoor">37.788670, -122.406763</string>
+
+
+    <string name="chestnut_shopping_name"> Chestnut Street Shopping</string>
+    <string name="chestnut_shopping_address">Chestnut and Scott,San Francisco,CA</string>
+    <string name="chestnut_shopping_des">Chestnut is a street lined with a mix of sophisticated shops,
+        beauty outlets and restaurants alongside brand name retailers.
+        While unique and offbeat in nature, Chestnut Street retains a distinctive neighborhood feel. Here shoppers and locals find incredible shoe boutiques like Rabat
+        featuring trendy but functional footwear and specialty shops like Blue Bird, a gift shop carrying kitschy gifts like porcelain dolls and oversized potato heads.
+        Well-known retailers, like Gap Body or the small, unique Chadwick\'s of London for cotton and lace lingerie,
+        lend a mass appeal. Williams-Sonoma, a neighborhood fixture, has the best in cookware, utensils and cookbooks.
+    </string>
+    <string name="chestnut_shopping_locCoor">37.800420, -122.441218</string>
+
+    <string name="hayesvalley_shopping_name">Hayes Valley Shopping</string>
+    <string name="hayesvalley_shopping_address"> Hayes and Gough,San Francisco,CA</string>
+    <string name="hayesvalley_shopping_des">The Hayes Valley is a beautiful blend of art and commerce in a small San Francisco
+        neighborhood brimming with art galleries, contemporary boutiques, interior design studios, outdoor cafes and wine bars.
+        This stretch of San Francisco shopping, in view of the San Francisco Symphony and Opera House, is a great place to find
+        out-of-the-ordinary items like, crafted ultra-modern club chairs, black ribboned dancing shoes and a funky tabletop in shocking blue.
+        Hayes Valley does not tolerate chain names or major outfitters that would infringe on the artful and airy style of the neighborhood.
+    </string>
+    <string name="hayesvalley_shopping_locCoor">37.777060, -122.423014</string>
+
+
+    <!--Nightlife tab content -->
+
+    <string name="whitechapel_nightclub_name">White Chapel</string>
+    <string name="whitechapel_nightclub_address">600 Polk St, San Francisco CA</string>
+    <string name="whitechapel_nightclub_des">White Chapel has been known as one of the premier places to go for gin by San Francisco locals for quite a while, but even Esquire magazine recognized this popular gin joint in a recent list of the best bars in America.
+        If you love gin, White Chapel is a must, and both the Narc Angel and the Queen Mother are among the best drinks on the menu
+    </string>
+    <string name="whitechapel_nightclub_locCoor">37.790860, -122.405655</string>
+
+
+    <string name="redwoodroom_nightclub_name">Redwood Room</string>
+    <string name="redwoodroom_nightclub_address">495 Geary St, San Francisco CA</string>
+    <string name="redwoodroom_nightclub_des">The Redwood Room combines some the best cocktails in San Francisco with an
+        upscale and trendy vibe that is perfect for anything from a date to a night out with friends. In addition to incredible artwork (including several Klimt reproductions), the "Redwood Room" is made out of an actual redwood tree. It\'s no surprise that 10Best named the Redwood Room the best hotel bar.
+        If you decide to visit this bar, consider the Clift Painkiller, a new addition to the menu.
+    </string>
+    <string name="redwoodroom_nightclub_locCoor">37.786935, -122.411097</string>
+
+
+    <string name="benjamin_nightclub_name">Benjamin Cooper</string>
+    <string name="benjamin_nightclub_address">398 Geary St, San Francisco CA</string>
+    <string name="benjamin_nightclub_des">Benjamin Cooper has been the source of a great deal of buzz lately, and
+        was named one of the best new bars in America in 2015 by Thrillist. This bar is ideal for cocktail connoisseurs who enjoy trying cutting-edge concoctions. Their list of cocktails changes weekly,
+        so we recommend asking the bartender for a recommendation based on your personal preferences.
+    </string>
+    <string name="benjamin_nightclub_locCoor">37.787612, -122.409692</string>
+
+    <string name="victoryhall_nightclub_name">Victory Hall</string>
+    <string name="victoryhall_nightclub_address">360 Ritch St, San Francisco CA</string>
+    <string name="victoryhall_nightclub_des">Located in the middle of SOMA, Victory Hall is an excellent place for both cocktails and craft beer drinkers alike, and was named one of the 25 best bars hidden in San Francisco Alleyways by Thrillist. The industrial
+        feel of this bar is different from many of the other bars in the area, and their menu is loaded with well-made bar food
+    </string>
+    <string name="victoryhall_nightclub_locCoor">37.779008, -122.394077</string>
+
+
+</resources>
