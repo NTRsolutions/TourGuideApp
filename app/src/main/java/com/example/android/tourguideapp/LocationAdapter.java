@@ -38,8 +38,6 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         } else {
             holder = (ViewHolder) listItemView.getTag();
         }
-
-
         final Location currentloc = getItem(position);
 
         String name = currentloc.getmLocName();

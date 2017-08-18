@@ -17,11 +17,8 @@ import android.widget.TextView;
  * create an instance of this fragment.
  */
 public class PageFragment extends Fragment {
-
     public static final String ARG_PAGE = "ARG_PAGE";
-
     private int mPage;
-
     public static PageFragment newInstance(int page) {
         Bundle args = new Bundle();
         args.putInt(ARG_PAGE, page);

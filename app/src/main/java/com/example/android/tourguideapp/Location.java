@@ -76,17 +76,13 @@ public class Location implements Parcelable {
     public static final Parcelable.Creator<Location> CREATOR
             = new Parcelable.Creator<Location>() {
 
-        // This simply calls our new constructor (typically private) and
-        // passes along the unmarshalled `Parcel`, and then returns the new object!
         @Override
         public Location createFromParcel(Parcel in) {
             return new Location(in);
         }
-
         @Override
         public Location[] newArray(int size) {
             return new Location[size];
         }
     };
-
 }

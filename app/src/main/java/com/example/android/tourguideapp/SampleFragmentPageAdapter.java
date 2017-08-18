@@ -10,7 +10,6 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 
 public class SampleFragmentPageAdapter extends FragmentPagerAdapter {
-
     final int PAGE_COUNT = 4;
     private Context mcontext;
 
@@ -38,13 +37,13 @@ public class SampleFragmentPageAdapter extends FragmentPagerAdapter {
             default:
                 return null;
         }
+    }
 
-}
     @Override
     public CharSequence getPageTitle(int position) {
         // Generate title based on item position
         //return tabTitles[position];
-        switch (position){
+        switch (position) {
             case 0:
                 return mcontext.getString(R.string.Tab1);
             case 1:
@@ -56,7 +55,6 @@ public class SampleFragmentPageAdapter extends FragmentPagerAdapter {
             default:
                 return null;
         }
-
     }
 }
 

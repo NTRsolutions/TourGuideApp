@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         viewPager.setAdapter(new SampleFragmentPageAdapter(getSupportFragmentManager(),
                 MainActivity.this));
-
         // Give the TabLayout the ViewPager
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
         //tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);

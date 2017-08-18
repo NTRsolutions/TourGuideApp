@@ -9,16 +9,16 @@
         android:id="@+id/imageOfLocation"
         android:layout_width="@dimen/list_item_width"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop" />
 
     <LinearLayout
         android:id="@+id/textcontent"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_vertical"
-        android:orientation="vertical"
         android:layout_marginLeft="24dp"
-        android:layout_toRightOf="@id/imageOfLocation">
+        android:layout_toRightOf="@id/imageOfLocation"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
 
 
         <TextView
@@ -26,14 +26,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textStyle="bold"
-            android:textColor="@color/category_colors"/>
+            android:textColor="@color/category_colors"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/locaddress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:textAppearanceMedium"/>
+            android:textAppearance="?android:textAppearanceMedium" />
 
     </LinearLayout>
 

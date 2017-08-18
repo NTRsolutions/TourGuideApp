@@ -29,7 +29,6 @@ public class NightlifeFragment extends Fragment {
         LocationAdapter adapter = new LocationAdapter(this.getActivity(),locations);
         ListView listView = (ListView)rootView.findViewById(R.id.loc_list);
         listView.setAdapter(adapter);
-
         return rootView;
     }
 }

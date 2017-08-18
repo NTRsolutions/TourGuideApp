@@ -45,6 +45,5 @@ public class LocationDetailActivity extends AppCompatActivity {
                 }
             }
         });
-
     }
 }
