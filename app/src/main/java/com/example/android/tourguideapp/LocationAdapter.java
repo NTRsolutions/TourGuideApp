@@ -18,17 +18,27 @@ import java.util.ArrayList;
 public class LocationAdapter extends ArrayAdapter<Location> {
     private Context context = getContext();
 
-    public LocationAdapter(Context context,ArrayList<Location> locations) {
+    public LocationAdapter(Context context, ArrayList<Location> locations) {
         super(context, 0, locations);
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+        ViewHolder holder;
+
         View listItemView = convertView;
         if (listItemView == null) {
+            holder = new ViewHolder();
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
+            holder.itemImageView = (ImageView) listItemView.findViewById(R.id.imageOfLocation);
+            holder.nameTextView = (TextView) listItemView.findViewById(R.id.locName);
+            holder.addressTextView = (TextView) listItemView.findViewById(R.id.locaddress);
+            listItemView.setTag(holder);
+        } else {
+            holder = (ViewHolder) listItemView.getTag();
         }
+
 
         final Location currentloc = getItem(position);
 
@@ -36,34 +46,26 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         String address = currentloc.getmLocAddress();
         int image = currentloc.getmLocImageResourceID();
 
+        holder.itemImageView.setImageResource(image);
+        holder.nameTextView.setText(name);
+        holder.addressTextView.setText(address);
 
-        //Get the ImageView and set the name of the Object
-        final ImageView itemImageView = (ImageView) listItemView.findViewById(R.id.imageOfLocation);
-        itemImageView.setImageResource(image);
-
-        //Get the TextView and set the name of the Object
-        TextView nameTextView = (TextView) listItemView.findViewById(R.id.locName);
-        nameTextView.setText(name);
-
-        //Get the TextView and set the name of the Object
-        TextView addressTextView = (TextView) listItemView.findViewById(R.id.locaddress);
-        addressTextView.setText(address);
-
-        listItemView.setOnClickListener(new View.OnClickListener(){
+        listItemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 Intent detailIntent = new Intent(view.getContext().getApplicationContext(), LocationDetailActivity.class);
-                detailIntent.putExtra("locDes", currentloc.getmLocDescription());
-                detailIntent.putExtra("locImageId", currentloc.getmLocImageResourceID());
-                detailIntent.putExtra("locName", currentloc.getmLocName());
-                detailIntent.putExtra("locCoor", currentloc.getmLocCoordinate());
-                // Start the new activity
+                detailIntent.putExtra("location" ,new Location(currentloc.getmLocName(),currentloc.getmLocAddress(),currentloc.getmLocDescription(),currentloc.getmLocImageResourceID(),currentloc.getmLocCoordinate()));
                 view.getContext().startActivity(detailIntent);
-
             }
         });
         return listItemView;
+    }
+
+    static class ViewHolder {
+        ImageView itemImageView;
+        TextView nameTextView;
+        TextView addressTextView;
     }
 }
 

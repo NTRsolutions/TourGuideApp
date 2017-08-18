@@ -21,30 +21,22 @@ public class LocationDetailActivity extends AppCompatActivity {
         setContentView(R.layout.locationdetail_page);
 
         Bundle bundle = getIntent().getExtras();
-        String locationName = bundle.getString("locName");
-        String locationDetail = bundle.getString("locDes");
-        int imageId = bundle.getInt("locImageId");
-        final String placeLocation = bundle.getString("locCoor");
-
-
+        Location location = (Location) bundle.getParcelable("location");;
+        final String placeLocation = location.getmLocCoordinate();
 
         ImageView image = (ImageView) findViewById(R.id.imageDetailPage);
-        image.setImageResource(imageId);
+        image.setImageResource(location.getmLocImageResourceID());
 
         TextView locText = (TextView) findViewById(R.id.nameDetailPage);
-        locText.setText(locationName);
+        locText.setText(location.getmLocName());
 
         TextView locdec = (TextView) findViewById(R.id.descDetailPage);
-        locdec.setText(locationDetail);
-
-
-
+        locdec.setText(location.getmLocDescription());
 
         RelativeLayout mapView = (RelativeLayout) findViewById(R.id.ViewOnMap);
         mapView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 //If clicking on the icon, goes to the site of the place
                 Uri geoLocation = Uri.parse("geo:" + placeLocation + "?z=16");
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, geoLocation);

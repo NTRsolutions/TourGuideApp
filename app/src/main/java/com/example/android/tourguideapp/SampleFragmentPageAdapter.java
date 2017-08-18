@@ -26,17 +26,20 @@ public class SampleFragmentPageAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new AttractionFragment();
-        } else if (position == 1){
-            return new DineFragment();
-        } else if(position == 2){
-            return new ShoppingFragment();
-        }else{
-            return new NightlifeFragment();
+        switch (position) {
+            case 0:
+                return new AttractionFragment();
+            case 1:
+                return new DineFragment();
+            case 2:
+                return new ShoppingFragment();
+            case 3:
+                return new NightlifeFragment();
+            default:
+                return null;
         }
-    }
 
+}
     @Override
     public CharSequence getPageTitle(int position) {
         // Generate title based on item position
